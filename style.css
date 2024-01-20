@@ -1,0 +1,71 @@
+body {
+    background: linear-gradient(to right, rgb(57, 88, 80), #5fa4cc);
+  }
+  
+  .card {
+    background: rgb(62, 180, 164);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 5vw;
+    }
+  
+    .first-input {
+      display: flex;
+      margin-left: 5px;
+    }
+  
+    #in{
+        border-radius: 10px;
+    }
+    .name-input {
+      margin-right: -10px;
+      width: 27vw;
+    }
+    
+    .mail {
+      width: 24vw;
+    }
+  
+    .btn-div {
+      text-align: center;
+    }
+    .btn {
+      color: azure;
+      border: none;
+      cursor: pointer;
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-top: 5vw;
+      border-radius: 2px;
+      font-weight: bold;
+      font-family: Arial;
+      background: linear-gradient(to right, #939751, #00c3ff);
+    }
+  
+    .msg-input {
+      height: 9vw;
+      width: 51vw;
+      padding-top: 0vw;
+    }
+  
+    input {
+      border:none;
+      background-color: rgb(238, 236, 236);
+      padding: 6px;
+      padding-left: 17px;
+      width: 20vw;
+    }
+    .web {
+      width: 50vw;
+      padding: 1vw;
+    }
+    
+  
+    .txt {
+      margin-bottom: 10px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
